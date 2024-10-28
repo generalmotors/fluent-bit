@@ -47,6 +47,7 @@ DEFINE_OPTION(FLB_IN_PROMETHEUS_REMOTE_WRITE  "Enable prometheus remote write in
 DEFINE_OPTION(FLB_IN_PROMETHEUS_SCRAPE        "Enable Prometheus Scrape input plugin"        ON)
 DEFINE_OPTION(FLB_IN_RANDOM                   "Enable random input plugin"                   ON)
 DEFINE_OPTION(FLB_IN_SERIAL                   "Enable Serial input plugin"                   ON)
+DEFINE_OPTION(FLB_IN_SOMEIP                   "Enable SOME/IP input plugin"                  OFF)
 DEFINE_OPTION(FLB_IN_SPLUNK                   "Enable Splunk HTTP HEC input plugin"          ON)
 DEFINE_OPTION(FLB_IN_STATSD                   "Enable StatsD input plugin"                   ON)
 DEFINE_OPTION(FLB_IN_STDIN                    "Enable Standard input plugin"                 ON)
@@ -62,7 +63,6 @@ DEFINE_OPTION(FLB_IN_WINLOG                   "Enable Windows Log input plugin" 
 DEFINE_OPTION(FLB_IN_WINDOWS_EXPORTER_METRICS "Enable windows exporter metrics input plugin" ON)
 DEFINE_OPTION(FLB_IN_WINEVTLOG                "Enable Windows EvtLog input plugin"           OFF)
 DEFINE_OPTION(FLB_IN_WINSTAT                  "Enable Windows Stat input plugin"             OFF)
-DEFINE_OPTION(FLB_IN_SOMEIP                   "Enable SOME/IP input plugin"                  OFF)
 
 # Processors
 # ==========
